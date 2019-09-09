@@ -1,0 +1,2400 @@
+@prefix fullResult: <file:///home/grlc/grlc/&serialization=PROV-O#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix result: <http://localhost/#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+<http:///api/albertmeronyo/lodapi/spec> a prov:Entity ;
+prov:generatedAtTime "2018-11-09T16:39:34.477222"^^xsd:dateTime ;
+prov:wasAttributedTo <http://> ;
+prov:wasGeneratedBy <http:///api/albertmeronyo/lodapi/spec-activity> .
+result:file-README-md_commit-c3adccd40735adb85de3a27e59433653ad65888a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-adbb75e63317132de4859da32d5a96f2831411a9 ;
+prov:hadActivity result:commit-c3adccd40735adb85de3a27e59433653ad65888a ;
+prov:hadGeneration result:file-README-md_commit-c3adccd40735adb85de3a27e59433653ad65888a_gen ;
+prov:hadUsage result:file-README-md_commit-adbb75e63317132de4859da32d5a96f2831411a9_commit-c3adccd40735adb85de3a27e59433653ad65888a_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-c3adccd40735adb85de3a27e59433653ad65888a ;
+prov:atTime "2015-11-16T09:15:38+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-adbb75e63317132de4859da32d5a96f2831411a9 ;
+prov:wasGeneratedBy result:commit-c3adccd40735adb85de3a27e59433653ad65888a .
+result:file-canada_test_1-old_commit-2789eeb091f66a6bdab0530df1446da35821e820 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-2789eeb091f66a6bdab0530df1446da35821e820 ;
+prov:atTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-canada_test_1-old ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasGeneratedBy result:commit-2789eeb091f66a6bdab0530df1446da35821e820 .
+result:file-canada_test_1-rq_commit-2789eeb091f66a6bdab0530df1446da35821e820 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-2789eeb091f66a6bdab0530df1446da35821e820 ;
+prov:atTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-canada_test_1-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasInvalidatedBy result:commit-2789eeb091f66a6bdab0530df1446da35821e820 .
+result:file-canada_test_1-rq_commit-46e395bbe0190f0ed3dd9969a8935890b4ad5366 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-canada_test_1-rq_commit-806606d1dced20124ff83a630a59ce256123cf3c ;
+prov:hadActivity result:commit-46e395bbe0190f0ed3dd9969a8935890b4ad5366 ;
+prov:hadGeneration result:file-canada_test_1-rq_commit-46e395bbe0190f0ed3dd9969a8935890b4ad5366_gen ;
+prov:hadUsage result:file-canada_test_1-rq_commit-806606d1dced20124ff83a630a59ce256123cf3c_commit-46e395bbe0190f0ed3dd9969a8935890b4ad5366_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-46e395bbe0190f0ed3dd9969a8935890b4ad5366 ;
+prov:atTime "2015-11-17T13:35:37+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-canada_test_1-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-canada_test_1-rq_commit-806606d1dced20124ff83a630a59ce256123cf3c ;
+prov:wasGeneratedBy result:commit-46e395bbe0190f0ed3dd9969a8935890b4ad5366 .
+result:file-dbpedia_test-rq_commit-a0838155b7ebe01e216e9fc477957b2a8131e01f a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-dbpedia_test-rq_commit-488d057542c84b6c539cb71cff902b5a21bf8677 ;
+prov:hadActivity result:commit-a0838155b7ebe01e216e9fc477957b2a8131e01f ;
+prov:hadGeneration result:file-dbpedia_test-rq_commit-a0838155b7ebe01e216e9fc477957b2a8131e01f_gen ;
+prov:hadUsage result:file-dbpedia_test-rq_commit-488d057542c84b6c539cb71cff902b5a21bf8677_commit-a0838155b7ebe01e216e9fc477957b2a8131e01f_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-a0838155b7ebe01e216e9fc477957b2a8131e01f ;
+prov:atTime "2017-03-02T15:55:04+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dbpedia_test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-dbpedia_test-rq_commit-488d057542c84b6c539cb71cff902b5a21bf8677 ;
+prov:wasGeneratedBy result:commit-a0838155b7ebe01e216e9fc477957b2a8131e01f .
+result:file-dbpedia_test-rq_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-dbpedia_test-rq_commit-58bcd8c5088233df92d136c8a1d057883b592081 ;
+prov:hadActivity result:commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 ;
+prov:hadGeneration result:file-dbpedia_test-rq_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00_gen ;
+prov:hadUsage result:file-dbpedia_test-rq_commit-58bcd8c5088233df92d136c8a1d057883b592081_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 ;
+prov:atTime "2018-09-11T09:35:14+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dbpedia_test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-dbpedia_test-rq_commit-58bcd8c5088233df92d136c8a1d057883b592081 ;
+prov:wasGeneratedBy result:commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 .
+result:file-dbpedia_test-rq_commit-dcb9094e7139998466e867467140de019ee58b04 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-dbpedia_test-rq_commit-9896f39641965715fd5e47e9ddb73d011dfa2048 ;
+prov:hadActivity result:commit-dcb9094e7139998466e867467140de019ee58b04 ;
+prov:hadGeneration result:file-dbpedia_test-rq_commit-dcb9094e7139998466e867467140de019ee58b04_gen ;
+prov:hadUsage result:file-dbpedia_test-rq_commit-9896f39641965715fd5e47e9ddb73d011dfa2048_commit-dcb9094e7139998466e867467140de019ee58b04_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-dcb9094e7139998466e867467140de019ee58b04 ;
+prov:atTime "2017-05-09T14:23:06+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dbpedia_test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-dbpedia_test-rq_commit-9896f39641965715fd5e47e9ddb73d011dfa2048 ;
+prov:wasGeneratedBy result:commit-dcb9094e7139998466e867467140de019ee58b04 .
+result:file-dbpedia_test-rq_commit-fbca63e987d47dac622f03292290ab93b22fce47 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-fbca63e987d47dac622f03292290ab93b22fce47 ;
+prov:atTime "2017-03-02T10:23:29+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dbpedia_test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasGeneratedBy result:commit-fbca63e987d47dac622f03292290ab93b22fce47 .
+result:file-dwarsliggers-rq_commit-9896f39641965715fd5e47e9ddb73d011dfa2048 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-9896f39641965715fd5e47e9ddb73d011dfa2048 ;
+prov:atTime "2017-04-25T08:59:10+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dwarsliggers-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasInvalidatedBy result:commit-9896f39641965715fd5e47e9ddb73d011dfa2048 .
+result:file-dwarsliggers-rq_commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a ;
+prov:atTime "2016-12-12T10:55:50+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dwarsliggers-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a .
+result:file-dwarsliggers-sparql_commit-0319ffef18021715bf6f6c76e5bdd59f1ba2327e a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-0319ffef18021715bf6f6c76e5bdd59f1ba2327e ;
+prov:atTime "2016-12-12T10:54:19+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dwarsliggers-sparql ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-0319ffef18021715bf6f6c76e5bdd59f1ba2327e .
+result:file-dwarsliggers-sparql_commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a ;
+prov:atTime "2016-12-12T10:55:50+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dwarsliggers-sparql ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasInvalidatedBy result:commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a .
+result:file-endpoint-txt_commit-58bcd8c5088233df92d136c8a1d057883b592081 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-endpoint-txt_commit-0bbdc007f91149934586987b3d41d9ddc4fd35be ;
+prov:hadActivity result:commit-58bcd8c5088233df92d136c8a1d057883b592081 ;
+prov:hadGeneration result:file-endpoint-txt_commit-58bcd8c5088233df92d136c8a1d057883b592081_gen ;
+prov:hadUsage result:file-endpoint-txt_commit-0bbdc007f91149934586987b3d41d9ddc4fd35be_commit-58bcd8c5088233df92d136c8a1d057883b592081_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-58bcd8c5088233df92d136c8a1d057883b592081 ;
+prov:atTime "2017-09-29T11:12:31+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-endpoint-txt ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-endpoint-txt_commit-0bbdc007f91149934586987b3d41d9ddc4fd35be ;
+prov:wasGeneratedBy result:commit-58bcd8c5088233df92d136c8a1d057883b592081 .
+result:file-endpoint-txt_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-endpoint-txt_commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 ;
+prov:hadActivity result:commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 ;
+prov:hadGeneration result:file-endpoint-txt_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0_gen ;
+prov:hadUsage result:file-endpoint-txt_commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 ;
+prov:atTime "2016-12-02T12:12:32+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-endpoint-txt ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-endpoint-txt_commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 ;
+prov:wasGeneratedBy result:commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 .
+result:file-ghostbusters-ttl_commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 ;
+prov:atTime "2016-12-08T10:12:26+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-ghostbusters-ttl ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasGeneratedBy result:commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 .
+result:file-ghostbusters_tracks-dmp_commit-aa3b73b4a13cce298d94bafd845cf2f60aae4675 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-aa3b73b4a13cce298d94bafd845cf2f60aae4675 ;
+prov:atTime "2016-12-08T12:49:49+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-ghostbusters_tracks-dmp ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-aa3b73b4a13cce298d94bafd845cf2f60aae4675 .
+result:file-ghostbusters_tracks-dmp_commit-e9a05a3e416ef90ebbb28b7504eb7fde155e5e55 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-e9a05a3e416ef90ebbb28b7504eb7fde155e5e55 ;
+prov:atTime "2016-12-08T13:34:18+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-ghostbusters_tracks-dmp ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasInvalidatedBy result:commit-e9a05a3e416ef90ebbb28b7504eb7fde155e5e55 .
+result:file-ghostbusters_tracks-rq_commit-aa3b73b4a13cce298d94bafd845cf2f60aae4675 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-aa3b73b4a13cce298d94bafd845cf2f60aae4675 ;
+prov:atTime "2016-12-08T12:49:49+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-ghostbusters_tracks-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasInvalidatedBy result:commit-aa3b73b4a13cce298d94bafd845cf2f60aae4675 .
+result:file-ghostbusters_tracks-rq_commit-e9a05a3e416ef90ebbb28b7504eb7fde155e5e55 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-e9a05a3e416ef90ebbb28b7504eb7fde155e5e55 ;
+prov:atTime "2016-12-08T13:34:18+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-ghostbusters_tracks-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-e9a05a3e416ef90ebbb28b7504eb7fde155e5e55 .
+result:file-ghostbusters_tracks-rq_commit-f42edcc25b97caa3bfda3c078c353bd89d7bc04e a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-ghostbusters_tracks-rq_commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb ;
+prov:hadActivity result:commit-f42edcc25b97caa3bfda3c078c353bd89d7bc04e ;
+prov:hadGeneration result:file-ghostbusters_tracks-rq_commit-f42edcc25b97caa3bfda3c078c353bd89d7bc04e_gen ;
+prov:hadUsage result:file-ghostbusters_tracks-rq_commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb_commit-f42edcc25b97caa3bfda3c078c353bd89d7bc04e_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-f42edcc25b97caa3bfda3c078c353bd89d7bc04e ;
+prov:atTime "2016-12-08T10:41:03+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-ghostbusters_tracks-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-ghostbusters_tracks-rq_commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb ;
+prov:wasGeneratedBy result:commit-f42edcc25b97caa3bfda3c078c353bd89d7bc04e .
+result:file-houseType_params-rq_commit-14878f594597ea81fcc0d084900bc1fba9a96456 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-b69f6845576dddb44d8fa61f908410c09759d560 ;
+prov:hadActivity result:commit-14878f594597ea81fcc0d084900bc1fba9a96456 ;
+prov:hadGeneration result:file-houseType_params-rq_commit-14878f594597ea81fcc0d084900bc1fba9a96456_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-b69f6845576dddb44d8fa61f908410c09759d560_commit-14878f594597ea81fcc0d084900bc1fba9a96456_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-14878f594597ea81fcc0d084900bc1fba9a96456 ;
+prov:atTime "2018-10-31T10:07:39+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-b69f6845576dddb44d8fa61f908410c09759d560 ;
+prov:wasGeneratedBy result:commit-14878f594597ea81fcc0d084900bc1fba9a96456 .
+result:file-houseType_params-rq_commit-19714c2a76dc37c1b90122dcd5d868a6c7e419e0 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 ;
+prov:hadActivity result:commit-19714c2a76dc37c1b90122dcd5d868a6c7e419e0 ;
+prov:hadGeneration result:file-houseType_params-rq_commit-19714c2a76dc37c1b90122dcd5d868a6c7e419e0_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800_commit-19714c2a76dc37c1b90122dcd5d868a6c7e419e0_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-19714c2a76dc37c1b90122dcd5d868a6c7e419e0 ;
+prov:atTime "2016-12-08T10:30:50+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 ;
+prov:wasGeneratedBy result:commit-19714c2a76dc37c1b90122dcd5d868a6c7e419e0 .
+result:file-houseType_params-rq_commit-3191e877f28527b6f0a37fbe409b79e4f16a281a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 ;
+prov:hadActivity result:commit-3191e877f28527b6f0a37fbe409b79e4f16a281a ;
+prov:hadGeneration result:file-houseType_params-rq_commit-3191e877f28527b6f0a37fbe409b79e4f16a281a_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0_commit-3191e877f28527b6f0a37fbe409b79e4f16a281a_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-3191e877f28527b6f0a37fbe409b79e4f16a281a ;
+prov:atTime "2016-12-02T12:23:05+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 ;
+prov:wasGeneratedBy result:commit-3191e877f28527b6f0a37fbe409b79e4f16a281a .
+result:file-houseType_params-rq_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-ae27018edc64aeca5d50dc5abf7a91d3054954de ;
+prov:hadActivity result:commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 ;
+prov:hadGeneration result:file-houseType_params-rq_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-ae27018edc64aeca5d50dc5abf7a91d3054954de_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 ;
+prov:atTime "2016-12-07T13:36:05+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-ae27018edc64aeca5d50dc5abf7a91d3054954de ;
+prov:wasGeneratedBy result:commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 .
+result:file-houseType_params-rq_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-2c6368f2c34f1706474cf91746a334523d6c2267 ;
+prov:hadActivity result:commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 ;
+prov:hadGeneration result:file-houseType_params-rq_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-2c6368f2c34f1706474cf91746a334523d6c2267_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 ;
+prov:atTime "2017-02-28T13:51:18+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-2c6368f2c34f1706474cf91746a334523d6c2267 ;
+prov:wasGeneratedBy result:commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 .
+result:file-houseType_params-rq_commit-8affb3ce915c134573a086af9e709d1645610d99 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a ;
+prov:hadActivity result:commit-8affb3ce915c134573a086af9e709d1645610d99 ;
+prov:hadGeneration result:file-houseType_params-rq_commit-8affb3ce915c134573a086af9e709d1645610d99_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a_commit-8affb3ce915c134573a086af9e709d1645610d99_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-8affb3ce915c134573a086af9e709d1645610d99 ;
+prov:atTime "2017-02-27T14:03:04+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a ;
+prov:wasGeneratedBy result:commit-8affb3ce915c134573a086af9e709d1645610d99 .
+result:file-houseType_params-rq_commit-bb92675ab1b680a242ec7d16106e917323b2ac7a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-bb92675ab1b680a242ec7d16106e917323b2ac7a ;
+prov:atTime "2016-12-02T10:56:18+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasGeneratedBy result:commit-bb92675ab1b680a242ec7d16106e917323b2ac7a .
+result:file-led_zeppelin_dbp-tpf_commit-3fe54dca65a4aa856871803ae65630c7a41c2c40 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-3fe54dca65a4aa856871803ae65630c7a41c2c40 ;
+prov:atTime "2016-12-07T13:28:53+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-led_zeppelin_dbp-tpf ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasGeneratedBy result:commit-3fe54dca65a4aa856871803ae65630c7a41c2c40 .
+result:file-led_zeppelin_dbp-tpf_commit-4892d12e70575aae02dc88605b118ba4c4bf15d4 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-led_zeppelin_dbp-tpf_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 ;
+prov:hadActivity result:commit-4892d12e70575aae02dc88605b118ba4c4bf15d4 ;
+prov:hadGeneration result:file-led_zeppelin_dbp-tpf_commit-4892d12e70575aae02dc88605b118ba4c4bf15d4_gen ;
+prov:hadUsage result:file-led_zeppelin_dbp-tpf_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5_commit-4892d12e70575aae02dc88605b118ba4c4bf15d4_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-4892d12e70575aae02dc88605b118ba4c4bf15d4 ;
+prov:atTime "2016-12-07T13:39:23+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-led_zeppelin_dbp-tpf ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasDerivedFrom result:file-led_zeppelin_dbp-tpf_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 ;
+prov:wasGeneratedBy result:commit-4892d12e70575aae02dc88605b118ba4c4bf15d4 .
+result:file-parametertest-old_commit-2789eeb091f66a6bdab0530df1446da35821e820 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-2789eeb091f66a6bdab0530df1446da35821e820 ;
+prov:atTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-parametertest-old ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasGeneratedBy result:commit-2789eeb091f66a6bdab0530df1446da35821e820 .
+result:file-parametertest-rq_commit-2789eeb091f66a6bdab0530df1446da35821e820 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-2789eeb091f66a6bdab0530df1446da35821e820 ;
+prov:atTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-parametertest-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasInvalidatedBy result:commit-2789eeb091f66a6bdab0530df1446da35821e820 .
+result:file-parametertest-rq_commit-2dc79fb9e20197db7440b48fedb324b803458544 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Rinke-Hoekstra ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-2dc79fb9e20197db7440b48fedb324b803458544 ;
+prov:atTime "2015-11-18T14:52:18+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-parametertest-rq ;
+prov:wasAttributedTo result:user-Rinke-Hoekstra ;
+prov:wasGeneratedBy result:commit-2dc79fb9e20197db7440b48fedb324b803458544 .
+result:file-queries-folderexample-rq_commit-0bbdc007f91149934586987b3d41d9ddc4fd35be a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-0bbdc007f91149934586987b3d41d9ddc4fd35be ;
+prov:atTime "2017-09-27T08:40:09+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-queries-folderexample-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-0bbdc007f91149934586987b3d41d9ddc4fd35be .
+result:file-rdfa_example-rq_commit-9b0ab8e7fe55dd5bfadf37c1af4b3640de6bc7c0 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-9b0ab8e7fe55dd5bfadf37c1af4b3640de6bc7c0 ;
+prov:atTime "2016-12-10T14:19:56+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-rdfa_example-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-9b0ab8e7fe55dd5bfadf37c1af4b3640de6bc7c0 .
+result:file-statusbybirtyear_mult-rq_commit-1998baa07cef26795f1ca7756984d3d2c9b22803 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-statusbybirtyear_mult-rq_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 ;
+prov:hadActivity result:commit-1998baa07cef26795f1ca7756984d3d2c9b22803 ;
+prov:hadGeneration result:file-statusbybirtyear_mult-rq_commit-1998baa07cef26795f1ca7756984d3d2c9b22803_gen ;
+prov:hadUsage result:file-statusbybirtyear_mult-rq_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114_commit-1998baa07cef26795f1ca7756984d3d2c9b22803_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-1998baa07cef26795f1ca7756984d3d2c9b22803 ;
+prov:atTime "2017-09-27T07:05:58+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-statusbybirtyear_mult-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-statusbybirtyear_mult-rq_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 ;
+prov:wasGeneratedBy result:commit-1998baa07cef26795f1ca7756984d3d2c9b22803 .
+result:file-statusbybirtyear_mult-rq_commit-22963626b1ac6a47f0cbee8bd9c6cfde16f2b410 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-22963626b1ac6a47f0cbee8bd9c6cfde16f2b410 ;
+prov:atTime "2017-09-26T14:25:00+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-statusbybirtyear_mult-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-22963626b1ac6a47f0cbee8bd9c6cfde16f2b410 .
+result:file-statusbybirtyear_mult_shouldwork-rq_commit-8a8c41bd5c26c949351cc188dbfa19871003390b a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-statusbybirtyear_mult_shouldwork-rq_commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b ;
+prov:hadActivity result:commit-8a8c41bd5c26c949351cc188dbfa19871003390b ;
+prov:hadGeneration result:file-statusbybirtyear_mult_shouldwork-rq_commit-8a8c41bd5c26c949351cc188dbfa19871003390b_gen ;
+prov:hadUsage result:file-statusbybirtyear_mult_shouldwork-rq_commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b_commit-8a8c41bd5c26c949351cc188dbfa19871003390b_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-8a8c41bd5c26c949351cc188dbfa19871003390b ;
+prov:atTime "2017-09-26T14:33:34+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-statusbybirtyear_mult_shouldwork-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-statusbybirtyear_mult_shouldwork-rq_commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b ;
+prov:wasGeneratedBy result:commit-8a8c41bd5c26c949351cc188dbfa19871003390b .
+result:file-test-rq_commit-07012aeca901fb2a3bccb67f71da84ce4fc0bf98 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-34147d842e5b54a7f630c742ebc0848c8c31133c ;
+prov:hadActivity result:commit-07012aeca901fb2a3bccb67f71da84ce4fc0bf98 ;
+prov:hadGeneration result:file-test-rq_commit-07012aeca901fb2a3bccb67f71da84ce4fc0bf98_gen ;
+prov:hadUsage result:file-test-rq_commit-34147d842e5b54a7f630c742ebc0848c8c31133c_commit-07012aeca901fb2a3bccb67f71da84ce4fc0bf98_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-07012aeca901fb2a3bccb67f71da84ce4fc0bf98 ;
+prov:atTime "2017-03-03T21:39:09+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-test-rq_commit-34147d842e5b54a7f630c742ebc0848c8c31133c ;
+prov:wasGeneratedBy result:commit-07012aeca901fb2a3bccb67f71da84ce4fc0bf98 .
+result:file-test-rq_commit-152c57f63c421ba8c561397cc7a7333595f8e8a5 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de ;
+prov:hadActivity result:commit-152c57f63c421ba8c561397cc7a7333595f8e8a5 ;
+prov:hadGeneration result:file-test-rq_commit-152c57f63c421ba8c561397cc7a7333595f8e8a5_gen ;
+prov:hadUsage result:file-test-rq_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de_commit-152c57f63c421ba8c561397cc7a7333595f8e8a5_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-152c57f63c421ba8c561397cc7a7333595f8e8a5 ;
+prov:atTime "2017-02-28T21:15:49+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de ;
+prov:wasGeneratedBy result:commit-152c57f63c421ba8c561397cc7a7333595f8e8a5 .
+result:file-test-rq_commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 ;
+prov:atTime "2017-03-02T12:31:20+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasInvalidatedBy result:commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 .
+result:file-test-rq_commit-cf170af5f03b1ea40110d66af058a054de518871 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-cf170af5f03b1ea40110d66af058a054de518871 ;
+prov:atTime "2017-03-03T21:41:36+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasInvalidatedBy result:commit-cf170af5f03b1ea40110d66af058a054de518871 .
+result:file-test-rq_commit-edfa0b7dde29d67be621406d233ea89de01e4fa7 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 ;
+prov:hadActivity result:commit-edfa0b7dde29d67be621406d233ea89de01e4fa7 ;
+prov:hadGeneration result:file-test-rq_commit-edfa0b7dde29d67be621406d233ea89de01e4fa7_gen ;
+prov:hadUsage result:file-test-rq_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0_commit-edfa0b7dde29d67be621406d233ea89de01e4fa7_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-edfa0b7dde29d67be621406d233ea89de01e4fa7 ;
+prov:atTime "2017-03-02T09:55:37+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 ;
+prov:wasGeneratedBy result:commit-edfa0b7dde29d67be621406d233ea89de01e4fa7 .
+result:file-test-rq_commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c ;
+prov:atTime "2017-02-28T10:54:46+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c .
+result:file-test2-rq_commit-9896f39641965715fd5e47e9ddb73d011dfa2048 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-9896f39641965715fd5e47e9ddb73d011dfa2048 ;
+prov:atTime "2017-04-25T08:59:10+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test2-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasInvalidatedBy result:commit-9896f39641965715fd5e47e9ddb73d011dfa2048 .
+result:file-test2-rq_commit-b39506399bf1e13c5b841956604f238327f39b8a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-b39506399bf1e13c5b841956604f238327f39b8a ;
+prov:atTime "2017-03-03T21:42:21+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test2-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-b39506399bf1e13c5b841956604f238327f39b8a .
+result:file-todo-cedarmini-old_commit-2789eeb091f66a6bdab0530df1446da35821e820 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-2789eeb091f66a6bdab0530df1446da35821e820 ;
+prov:atTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-todo-cedarmini-old ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasGeneratedBy result:commit-2789eeb091f66a6bdab0530df1446da35821e820 .
+result:file-todo-cedarmini-rq_commit-2789eeb091f66a6bdab0530df1446da35821e820 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedInvalidation [ a prov:Invalidation ;
+prov:activity result:commit-2789eeb091f66a6bdab0530df1446da35821e820 ;
+prov:atTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-todo-cedarmini-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasInvalidatedBy result:commit-2789eeb091f66a6bdab0530df1446da35821e820 .
+result:file-todo-cedarmini-rq_commit-c82709c1b853bf9531c8f3e6b4f5d53fb3fecc65 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-c82709c1b853bf9531c8f3e6b4f5d53fb3fecc65 ;
+prov:atTime "2015-11-17T15:19:08+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-todo-cedarmini-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-c82709c1b853bf9531c8f3e6b4f5d53fb3fecc65 .
+result:file-v1-exampleQuery-rq_commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 ;
+prov:atTime "2015-11-16T14:15:53+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-v1-exampleQuery-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 .
+result:provenance a prov:Bundle ;
+prov:alternateOf fullResult:provenance .
+<endpoint.txt> a prov:Entity .
+<http:///api/albertmeronyo/lodapi/spec-activity> a prov:Activity ;
+prov:endedAtTime "2018-11-09T16:39:34.477222"^^xsd:dateTime ;
+prov:startedAtTime "2018-11-09T16:39:30.233863"^^xsd:dateTime ;
+prov:used <endpoint.txt>,
+<https://api.github.com/repos/albertmeronyo/lodapi>,
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/dbpedia_test.rq>,
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/ghostbusters_tracks.rq>,
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/houseType_params.rq>,
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/led_zeppelin_dbp.tpf>,
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/rdfa_example.rq>,
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/statusbybirtyear_mult.rq>,
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/statusbybirtyear_mult_shouldwork.rq> ;
+prov:wasAssociatedWith <http://> .
+result:file-canada_test_1-old a prov:Entity ;
+rdfs:label "canada_test_1.old"@en .
+result:file-ghostbusters-ttl a prov:Entity ;
+rdfs:label "ghostbusters.ttl"@en .
+result:file-parametertest-old a prov:Entity ;
+rdfs:label "parametertest.old"@en .
+result:file-queries-folderexample-rq a prov:Entity ;
+rdfs:label "queries/folderexample.rq"@en .
+result:file-rdfa_example-rq a prov:Entity ;
+rdfs:label "rdfa_example.rq"@en .
+result:file-todo-cedarmini-old a prov:Entity ;
+rdfs:label "todo-cedarmini.old"@en .
+result:file-v1-exampleQuery-rq a prov:Entity ;
+rdfs:label "v1/exampleQuery.rq"@en .
+<https://api.github.com/repos/albertmeronyo/lodapi> a prov:Entity .
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/dbpedia_test.rq> a prov:Entity .
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/ghostbusters_tracks.rq> a prov:Entity .
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/houseType_params.rq> a prov:Entity .
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/led_zeppelin_dbp.tpf> a prov:Entity .
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/rdfa_example.rq> a prov:Entity .
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/statusbybirtyear_mult.rq> a prov:Entity .
+<https://raw.githubusercontent.com/albertmeronyo/lodapi/master/statusbybirtyear_mult_shouldwork.rq> a prov:Entity .
+<http://> a prov:Agent .
+result:commit-0319ffef18021715bf6f6c76e5bdd59f1ba2327e a prov:Activity ;
+rdfs:label "Create dwarsliggers.sparql"@en ;
+prov:endedAtTime "2016-12-12T10:54:19+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:startedAtTime "2016-12-12T10:54:19+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub .
+result:commit-22963626b1ac6a47f0cbee8bd9c6cfde16f2b410 a prov:Activity ;
+rdfs:label "Create statusbybirtyear_mult.rq"@en ;
+prov:endedAtTime "2017-09-26T14:25:00+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:startedAtTime "2017-09-26T14:25:00+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub .
+result:commit-2dc79fb9e20197db7440b48fedb324b803458544 a prov:Activity ;
+rdfs:label "Create parametertest.rq"@en ;
+prov:endedAtTime "2015-11-18T14:52:18+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Rinke-Hoekstra ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2015-11-18T14:52:18+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Rinke-Hoekstra .
+result:commit-3fe54dca65a4aa856871803ae65630c7a41c2c40 a prov:Activity ;
+rdfs:label "Added sample triple pattern fragment query"@en ;
+prov:endedAtTime "2016-12-07T13:28:53+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peǹuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-07T13:28:53+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peǹuela .
+result:commit-9b0ab8e7fe55dd5bfadf37c1af4b3640de6bc7c0 a prov:Activity ;
+rdfs:label "Add rdfa example"@en ;
+prov:endedAtTime "2016-12-10T14:19:56+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-10T14:19:56+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-b39506399bf1e13c5b841956604f238327f39b8a a prov:Activity ;
+rdfs:label "first commit"@en ;
+prov:endedAtTime "2017-03-03T21:42:21+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2017-03-03T21:42:21+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-bb92675ab1b680a242ec7d16106e917323b2ac7a a prov:Activity ;
+rdfs:label "Query with a bit of all"@en ;
+prov:endedAtTime "2016-12-02T10:56:18+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peǹuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-02T10:56:18+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peǹuela .
+result:commit-c82709c1b853bf9531c8f3e6b4f5d53fb3fecc65 a prov:Activity ;
+rdfs:label "Create todo-cedarmini.rq"@en ;
+prov:endedAtTime "2015-11-17T15:19:08+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2015-11-17T15:19:08+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-cf170af5f03b1ea40110d66af058a054de518871 a prov:Activity ;
+rdfs:label "Deleted query in SPARQL2Git"@en ;
+prov:endedAtTime "2017-03-03T21:41:36+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2017-03-03T21:41:36+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-fbca63e987d47dac622f03292290ab93b22fce47 a prov:Activity ;
+rdfs:label "first commit"@en ;
+prov:endedAtTime "2017-03-02T10:23:29+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2017-03-02T10:23:29+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-albertmeronyo .
+result:file-dwarsliggers-rq a prov:Entity ;
+rdfs:label "dwarsliggers.rq"@en .
+result:file-dwarsliggers-sparql a prov:Entity ;
+rdfs:label "dwarsliggers.sparql"@en .
+result:file-ghostbusters_tracks-dmp a prov:Entity ;
+rdfs:label "ghostbusters_tracks.dmp"@en .
+result:file-led_zeppelin_dbp-tpf a prov:Entity ;
+rdfs:label "led_zeppelin_dbp.tpf"@en .
+result:file-parametertest-rq a prov:Entity ;
+rdfs:label "parametertest.rq"@en .
+result:file-statusbybirtyear_mult_shouldwork-rq a prov:Entity ;
+rdfs:label "statusbybirtyear_mult_shouldwork.rq"@en .
+result:file-test2-rq a prov:Entity ;
+rdfs:label "test2.rq"@en .
+result:file-todo-cedarmini-rq a prov:Entity ;
+rdfs:label "todo-cedarmini.rq"@en .
+result:commit-07012aeca901fb2a3bccb67f71da84ce4fc0bf98 a prov:Activity ;
+rdfs:label "new tag"@en ;
+prov:endedAtTime "2017-03-03T21:39:09+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-03T21:39:09+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-34147d842e5b54a7f630c742ebc0848c8c31133c ] ;
+prov:startedAtTime "2017-03-03T21:39:09+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-34147d842e5b54a7f630c742ebc0848c8c31133c ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-34147d842e5b54a7f630c742ebc0848c8c31133c .
+result:commit-0bbdc007f91149934586987b3d41d9ddc4fd35be a prov:Activity ;
+rdfs:label "Create folderexample.rq"@en ;
+prov:endedAtTime "2017-09-27T08:40:09+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:startedAtTime "2017-09-27T08:40:09+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub .
+result:commit-14878f594597ea81fcc0d084900bc1fba9a96456 a prov:Activity ;
+rdfs:label "tabs to spaces"@en ;
+prov:endedAtTime "2018-10-31T10:07:39+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2018-10-31T10:07:39+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-b69f6845576dddb44d8fa61f908410c09759d560 ] ;
+prov:startedAtTime "2018-10-31T10:07:39+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-b69f6845576dddb44d8fa61f908410c09759d560 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-b69f6845576dddb44d8fa61f908410c09759d560 .
+result:commit-152c57f63c421ba8c561397cc7a7333595f8e8a5 a prov:Activity ;
+rdfs:label "added test6"@en ;
+prov:endedAtTime "2017-02-28T21:15:49+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T21:15:49+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de ] ;
+prov:startedAtTime "2017-02-28T21:15:49+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-e14727d0471b5441cb3e3b665f4d0e3424c390de .
+result:commit-19714c2a76dc37c1b90122dcd5d868a6c7e419e0 a prov:Activity ;
+rdfs:label "Added enumeration"@en ;
+prov:endedAtTime "2016-12-08T10:30:50+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2016-12-08T10:30:50+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 ] ;
+prov:startedAtTime "2016-12-08T10:30:50+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 .
+result:commit-1998baa07cef26795f1ca7756984d3d2c9b22803 a prov:Activity ;
+rdfs:label "Update statusbybirtyear_mult.rq"@en ;
+prov:endedAtTime "2017-09-27T07:05:58+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-09-27T07:05:58+00:00"^^xsd:dateTime ;
+prov:entity result:file-statusbybirtyear_mult-rq_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 ] ;
+prov:startedAtTime "2017-09-27T07:05:58+00:00"^^xsd:dateTime ;
+prov:used result:file-statusbybirtyear_mult-rq_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 .
+result:commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 a prov:Activity ;
+rdfs:label "First commit"@en ;
+prov:endedAtTime "2015-11-16T08:34:03+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2015-11-16T08:34:03+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-3191e877f28527b6f0a37fbe409b79e4f16a281a a prov:Activity ;
+rdfs:label "Update houseType_params.rq"@en ;
+prov:endedAtTime "2016-12-02T12:23:05+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2016-12-02T12:23:05+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 ] ;
+prov:startedAtTime "2016-12-02T12:23:05+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 .
+result:commit-46e395bbe0190f0ed3dd9969a8935890b4ad5366 a prov:Activity ;
+rdfs:label "More decorators"@en ;
+prov:endedAtTime "2015-11-17T13:35:37+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-17T13:35:37+00:00"^^xsd:dateTime ;
+prov:entity result:file-canada_test_1-rq_commit-806606d1dced20124ff83a630a59ce256123cf3c ] ;
+prov:startedAtTime "2015-11-17T13:35:37+00:00"^^xsd:dateTime ;
+prov:used result:file-canada_test_1-rq_commit-806606d1dced20124ff83a630a59ce256123cf3c ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-806606d1dced20124ff83a630a59ce256123cf3c .
+result:commit-4892d12e70575aae02dc88605b118ba4c4bf15d4 a prov:Activity ;
+rdfs:label "Tabs removed"@en ;
+prov:endedAtTime "2016-12-07T13:39:23+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peǹuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2016-12-07T13:39:23+00:00"^^xsd:dateTime ;
+prov:entity result:file-led_zeppelin_dbp-tpf_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 ] ;
+prov:startedAtTime "2016-12-07T13:39:23+00:00"^^xsd:dateTime ;
+prov:used result:file-led_zeppelin_dbp-tpf_commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peǹuela ;
+prov:wasInformedBy result:commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 .
+result:commit-4f7962f5b3ec4becb2173ac6ec44d6d219715800 a prov:Activity ;
+rdfs:label "Added example ttl file"@en ;
+prov:endedAtTime "2016-12-08T10:12:26+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peǹuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-08T10:12:26+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peǹuela .
+result:commit-8affb3ce915c134573a086af9e709d1645610d99 a prov:Activity ;
+rdfs:label "Added endpoint"@en ;
+prov:endedAtTime "2017-02-27T14:03:04+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-27T14:03:04+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a ] ;
+prov:startedAtTime "2017-02-27T14:03:04+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a .
+result:commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 a prov:Activity ;
+rdfs:label "Deleted query in SPARQL2Git"@en ;
+prov:endedAtTime "2017-03-02T12:31:20+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2017-03-02T12:31:20+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-albertmeronyo .
+result:commit-a0838155b7ebe01e216e9fc477957b2a8131e01f a prov:Activity ;
+rdfs:label "pagination 50"@en ;
+prov:endedAtTime "2017-03-02T15:55:04+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T15:55:04+00:00"^^xsd:dateTime ;
+prov:entity result:file-dbpedia_test-rq_commit-488d057542c84b6c539cb71cff902b5a21bf8677 ] ;
+prov:startedAtTime "2017-03-02T15:55:04+00:00"^^xsd:dateTime ;
+prov:used result:file-dbpedia_test-rq_commit-488d057542c84b6c539cb71cff902b5a21bf8677 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-488d057542c84b6c539cb71cff902b5a21bf8677 .
+result:commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b a prov:Activity ;
+rdfs:label "Create statusbybirtyear_mult_shouldwork.rq"@en ;
+prov:endedAtTime "2017-09-26T14:29:16+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:startedAtTime "2017-09-26T14:29:16+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub .
+result:commit-c3adccd40735adb85de3a27e59433653ad65888a a prov:Activity ;
+rdfs:label "Testing push webhook"@en ;
+prov:endedAtTime "2015-11-16T09:15:38+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T09:15:38+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-adbb75e63317132de4859da32d5a96f2831411a9 ] ;
+prov:startedAtTime "2015-11-16T09:15:38+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-adbb75e63317132de4859da32d5a96f2831411a9 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-adbb75e63317132de4859da32d5a96f2831411a9 .
+result:commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 a prov:Activity ;
+rdfs:label "added endpoint file"@en ;
+prov:endedAtTime "2016-12-02T11:05:26+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peǹuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-02T11:05:26+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peǹuela .
+result:commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb a prov:Activity ;
+rdfs:label "Added test query for RDF dumps"@en ;
+prov:endedAtTime "2016-12-08T10:36:53+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-08T10:36:53+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-dcb9094e7139998466e867467140de019ee58b04 a prov:Activity ;
+rdfs:label "Limit 20"@en ;
+prov:endedAtTime "2017-05-09T14:23:06+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-05-09T14:23:06+00:00"^^xsd:dateTime ;
+prov:entity result:file-dbpedia_test-rq_commit-9896f39641965715fd5e47e9ddb73d011dfa2048 ] ;
+prov:startedAtTime "2017-05-09T14:23:06+00:00"^^xsd:dateTime ;
+prov:used result:file-dbpedia_test-rq_commit-9896f39641965715fd5e47e9ddb73d011dfa2048 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-9896f39641965715fd5e47e9ddb73d011dfa2048 .
+result:commit-e036e14ec307083859ce9d1bcf70487850d1573e a prov:Activity ;
+rdfs:label "test sessions"@en ;
+prov:endedAtTime "2017-03-03T21:28:50+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2017-03-03T21:28:50+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-edfa0b7dde29d67be621406d233ea89de01e4fa7 a prov:Activity ;
+rdfs:label "new method is POST"@en ;
+prov:endedAtTime "2017-03-02T09:55:37+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:55:37+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 ] ;
+prov:startedAtTime "2017-03-02T09:55:37+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 .
+result:commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c a prov:Activity ;
+rdfs:label "Created new SPARQL query"@en ;
+prov:endedAtTime "2017-02-28T10:54:46+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2017-02-28T10:54:46+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-f42edcc25b97caa3bfda3c078c353bd89d7bc04e a prov:Activity ;
+rdfs:label "Update ghostbusters_tracks.rq"@en ;
+prov:endedAtTime "2016-12-08T10:41:03+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2016-12-08T10:41:03+00:00"^^xsd:dateTime ;
+prov:entity result:file-ghostbusters_tracks-rq_commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb ] ;
+prov:startedAtTime "2016-12-08T10:41:03+00:00"^^xsd:dateTime ;
+prov:used result:file-ghostbusters_tracks-rq_commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb .
+result:file-endpoint-txt a prov:Entity ;
+rdfs:label "endpoint.txt"@en .
+result:commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 a prov:Activity ;
+rdfs:label "no pagination"@en ;
+prov:endedAtTime "2017-03-03T21:36:12+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-03T21:36:12+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-e036e14ec307083859ce9d1bcf70487850d1573e ] ;
+prov:startedAtTime "2017-03-03T21:36:12+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-e036e14ec307083859ce9d1bcf70487850d1573e ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-e036e14ec307083859ce9d1bcf70487850d1573e .
+result:commit-23302c78af916034a65f476663e04218efbab5ce a prov:Activity ;
+rdfs:label "testing testing"@en ;
+prov:endedAtTime "2017-02-28T14:03:40+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T14:03:40+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 ] ;
+prov:startedAtTime "2017-02-28T14:03:40+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 .
+result:commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 a prov:Activity ;
+rdfs:label "Updated method"@en ;
+prov:endedAtTime "2017-02-28T20:17:46+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T20:17:46+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 ] ;
+prov:startedAtTime "2017-02-28T20:17:46+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 .
+result:commit-2b8e4d525454d9698155508625f050e0c1960ffd a prov:Activity ;
+rdfs:label "Testing push webhook"@en ;
+prov:endedAtTime "2015-11-16T08:55:53+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T08:55:53+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a ] ;
+prov:startedAtTime "2015-11-16T08:55:53+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a .
+result:commit-2c6368f2c34f1706474cf91746a334523d6c2267 a prov:Activity ;
+rdfs:label "Update houseType_params.rq"@en ;
+prov:endedAtTime "2017-02-28T12:55:53+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T12:55:53+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-3e053ea0561b051905e5a11e28dfc35a934f521d ] ;
+prov:startedAtTime "2017-02-28T12:55:53+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-3e053ea0561b051905e5a11e28dfc35a934f521d ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-3e053ea0561b051905e5a11e28dfc35a934f521d .
+result:commit-34147d842e5b54a7f630c742ebc0848c8c31133c a prov:Activity ;
+rdfs:label "pagination on"@en ;
+prov:endedAtTime "2017-03-03T21:38:44+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-03T21:38:44+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 ] ;
+prov:startedAtTime "2017-03-03T21:38:44+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 .
+result:commit-3650e81afd607f6e1289f910420dcde9de1a2ef5 a prov:Activity ;
+rdfs:label "Removed parameters"@en ;
+prov:endedAtTime "2016-12-07T13:36:05+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peǹuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2016-12-07T13:36:05+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-ae27018edc64aeca5d50dc5abf7a91d3054954de ] ;
+prov:startedAtTime "2016-12-07T13:36:05+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-ae27018edc64aeca5d50dc5abf7a91d3054954de ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peǹuela ;
+prov:wasInformedBy result:commit-ae27018edc64aeca5d50dc5abf7a91d3054954de .
+result:commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b a prov:Activity ;
+rdfs:label "Extra crap"@en ;
+prov:endedAtTime "2015-11-16T08:41:42+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T08:41:42+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 ] ;
+prov:startedAtTime "2015-11-16T08:41:42+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 .
+result:commit-3e053ea0561b051905e5a11e28dfc35a934f521d a prov:Activity ;
+rdfs:label "I'm commit rofl"@en ;
+prov:endedAtTime "2017-02-28T12:52:53+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T12:52:53+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c ] ;
+prov:startedAtTime "2017-02-28T12:52:53+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c .
+result:commit-488d057542c84b6c539cb71cff902b5a21bf8677 a prov:Activity ;
+rdfs:label "just 10"@en ;
+prov:endedAtTime "2017-03-02T15:04:25+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T15:04:25+00:00"^^xsd:dateTime ;
+prov:entity result:file-dbpedia_test-rq_commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 ] ;
+prov:startedAtTime "2017-03-02T15:04:25+00:00"^^xsd:dateTime ;
+prov:used result:file-dbpedia_test-rq_commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 .
+result:commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 a prov:Activity ;
+rdfs:label "Meaningless title"@en ;
+prov:endedAtTime "2015-11-16T08:40:12+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T08:40:12+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d ] ;
+prov:startedAtTime "2015-11-16T08:40:12+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d .
+result:commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 a prov:Activity ;
+rdfs:label "Update houseType_params.rq"@en ;
+prov:endedAtTime "2017-02-28T13:51:18+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T13:51:18+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-2c6368f2c34f1706474cf91746a334523d6c2267 ] ;
+prov:startedAtTime "2017-02-28T13:51:18+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-2c6368f2c34f1706474cf91746a334523d6c2267 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-2c6368f2c34f1706474cf91746a334523d6c2267 .
+result:commit-5441688b65d4cc211b6a0a9f8659a72079410936 a prov:Activity ;
+rdfs:label "Update statusbybirtyear_mult.rq"@en ;
+prov:endedAtTime "2017-09-26T14:38:09+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-09-26T14:38:09+00:00"^^xsd:dateTime ;
+prov:entity result:file-statusbybirtyear_mult-rq_commit-8a8c41bd5c26c949351cc188dbfa19871003390b ] ;
+prov:startedAtTime "2017-09-26T14:38:09+00:00"^^xsd:dateTime ;
+prov:used result:file-statusbybirtyear_mult-rq_commit-8a8c41bd5c26c949351cc188dbfa19871003390b ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-8a8c41bd5c26c949351cc188dbfa19871003390b .
+result:commit-55ed2c44fd2f4f1af13860f5f02433168146b45c a prov:Activity ;
+rdfs:label "added test4"@en ;
+prov:endedAtTime "2017-02-28T21:04:49+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T21:04:49+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 ] ;
+prov:startedAtTime "2017-02-28T21:04:49+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 .
+result:commit-58bcd8c5088233df92d136c8a1d057883b592081 a prov:Activity ;
+rdfs:label "Update endpoint.txt"@en ;
+prov:endedAtTime "2017-09-29T11:12:31+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-09-29T11:12:31+00:00"^^xsd:dateTime ;
+prov:entity result:file-endpoint-txt_commit-0bbdc007f91149934586987b3d41d9ddc4fd35be ] ;
+prov:startedAtTime "2017-09-29T11:12:31+00:00"^^xsd:dateTime ;
+prov:used result:file-endpoint-txt_commit-0bbdc007f91149934586987b3d41d9ddc4fd35be ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-0bbdc007f91149934586987b3d41d9ddc4fd35be .
+result:commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 a prov:Activity ;
+rdfs:label "limit 30"@en ;
+prov:endedAtTime "2017-03-02T09:55:16+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:55:16+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-a9e7b093cfb40c4df911ee9b55d6848063890369 ] ;
+prov:startedAtTime "2017-03-02T09:55:16+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-a9e7b093cfb40c4df911ee9b55d6848063890369 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-a9e7b093cfb40c4df911ee9b55d6848063890369 .
+result:commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a a prov:Activity ;
+rdfs:label "Endpoint errors"@en ;
+prov:endedAtTime "2015-11-17T10:35:28+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-17T10:35:28+00:00"^^xsd:dateTime ;
+prov:entity result:file-canada_test_1-rq_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff ] ;
+prov:startedAtTime "2015-11-17T10:35:28+00:00"^^xsd:dateTime ;
+prov:used result:file-canada_test_1-rq_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-c7ea1bef9571a58fc0a9815880150faf9b909fff .
+result:commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 a prov:Activity ;
+rdfs:label "Update statusbybirtyear_mult.rq"@en ;
+prov:endedAtTime "2017-09-26T14:43:08+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-09-26T14:43:08+00:00"^^xsd:dateTime ;
+prov:entity result:file-statusbybirtyear_mult-rq_commit-5441688b65d4cc211b6a0a9f8659a72079410936 ] ;
+prov:startedAtTime "2017-09-26T14:43:08+00:00"^^xsd:dateTime ;
+prov:used result:file-statusbybirtyear_mult-rq_commit-5441688b65d4cc211b6a0a9f8659a72079410936 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-5441688b65d4cc211b6a0a9f8659a72079410936 .
+result:commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 a prov:Activity ;
+rdfs:label "Added tag4"@en ;
+prov:endedAtTime "2017-02-28T20:22:37+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T20:22:37+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 ] ;
+prov:startedAtTime "2017-02-28T20:22:37+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 .
+result:commit-6b341df0f0e696efde3ad0c14bb73706662a8142 a prov:Activity ;
+rdfs:label "Testing push webhook"@en ;
+prov:endedAtTime "2015-11-16T08:46:23+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T08:46:23+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-a356a5dc7c66d53a32e598e0b43736f39df62734 ] ;
+prov:startedAtTime "2015-11-16T08:46:23+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-a356a5dc7c66d53a32e598e0b43736f39df62734 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-a356a5dc7c66d53a32e598e0b43736f39df62734 .
+result:commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 a prov:Activity ;
+rdfs:label "pagination 50"@en ;
+prov:endedAtTime "2017-03-01T10:01:15+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-01T10:01:15+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f ] ;
+prov:startedAtTime "2017-03-01T10:01:15+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-b8a7ae644a06815b48832d55d74c7e4a670d761f .
+result:commit-7d5c3d620fe35d82c7d3888712db2b50f4b607c0 a prov:Activity ;
+rdfs:label "Update endpoint.txt"@en ;
+prov:endedAtTime "2016-12-02T12:12:32+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2016-12-02T12:12:32+00:00"^^xsd:dateTime ;
+prov:entity result:file-endpoint-txt_commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 ] ;
+prov:startedAtTime "2016-12-02T12:12:32+00:00"^^xsd:dateTime ;
+prov:used result:file-endpoint-txt_commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 .
+result:commit-806606d1dced20124ff83a630a59ce256123cf3c a prov:Activity ;
+rdfs:label "Update canada_test_1.rq"@en ;
+prov:endedAtTime "2015-11-17T10:39:09+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-17T10:39:09+00:00"^^xsd:dateTime ;
+prov:entity result:file-canada_test_1-rq_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a ] ;
+prov:startedAtTime "2015-11-17T10:39:09+00:00"^^xsd:dateTime ;
+prov:used result:file-canada_test_1-rq_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a .
+result:commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 a prov:Activity ;
+rdfs:label "limit 10"@en ;
+prov:endedAtTime "2017-03-02T09:49:58+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:49:58+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 ] ;
+prov:startedAtTime "2017-03-02T09:49:58+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 .
+result:commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d a prov:Activity ;
+rdfs:label "A bit of repo description"@en ;
+prov:endedAtTime "2015-11-16T08:36:00+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T08:36:00+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 ] ;
+prov:startedAtTime "2015-11-16T08:36:00+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 .
+result:commit-8a8c41bd5c26c949351cc188dbfa19871003390b a prov:Activity ;
+rdfs:label "Update statusbybirtyear_mult_shouldwork.rq"@en ;
+prov:endedAtTime "2017-09-26T14:33:34+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-09-26T14:33:34+00:00"^^xsd:dateTime ;
+prov:entity result:file-statusbybirtyear_mult_shouldwork-rq_commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b ] ;
+prov:startedAtTime "2017-09-26T14:33:34+00:00"^^xsd:dateTime ;
+prov:used result:file-statusbybirtyear_mult_shouldwork-rq_commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b .
+result:commit-a356a5dc7c66d53a32e598e0b43736f39df62734 a prov:Activity ;
+rdfs:label "Testing push webhook"@en ;
+prov:endedAtTime "2015-11-16T08:45:07+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T08:45:07+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b ] ;
+prov:startedAtTime "2015-11-16T08:45:07+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b .
+result:commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 a prov:Activity ;
+rdfs:label "Extended limit to 100"@en ;
+prov:endedAtTime "2017-02-28T16:16:31+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T16:16:31+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 ] ;
+prov:startedAtTime "2017-02-28T16:16:31+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 .
+result:commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b a prov:Activity ;
+rdfs:label "limit 10"@en ;
+prov:endedAtTime "2017-03-02T09:45:30+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:45:30+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f ] ;
+prov:startedAtTime "2017-03-02T09:45:30+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f .
+result:commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 a prov:Activity ;
+rdfs:label "variable name change"@en ;
+prov:endedAtTime "2018-09-11T09:35:14+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2018-09-11T09:35:14+00:00"^^xsd:dateTime ;
+prov:entity result:file-dbpedia_test-rq_commit-58bcd8c5088233df92d136c8a1d057883b592081 ] ;
+prov:startedAtTime "2018-09-11T09:35:14+00:00"^^xsd:dateTime ;
+prov:used result:file-dbpedia_test-rq_commit-58bcd8c5088233df92d136c8a1d057883b592081 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-58bcd8c5088233df92d136c8a1d057883b592081 .
+result:commit-a9e7b093cfb40c4df911ee9b55d6848063890369 a prov:Activity ;
+rdfs:label "limit 20"@en ;
+prov:endedAtTime "2017-03-02T09:55:04+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:55:04+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 ] ;
+prov:startedAtTime "2017-03-02T09:55:04+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 .
+result:commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 a prov:Activity ;
+rdfs:label "limit 10"@en ;
+prov:endedAtTime "2017-03-02T09:17:46+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:17:46+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 ] ;
+prov:startedAtTime "2017-03-02T09:17:46+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 .
+result:commit-aa3b73b4a13cce298d94bafd845cf2f60aae4675 a prov:Activity ;
+rdfs:label "Testing new dump query file type"@en ;
+prov:endedAtTime "2016-12-08T12:49:49+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-08T12:49:49+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-adbb75e63317132de4859da32d5a96f2831411a9 a prov:Activity ;
+rdfs:label "Testing push webhook"@en ;
+prov:endedAtTime "2015-11-16T09:03:48+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T09:03:48+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-2b8e4d525454d9698155508625f050e0c1960ffd ] ;
+prov:startedAtTime "2015-11-16T09:03:48+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-2b8e4d525454d9698155508625f050e0c1960ffd ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-2b8e4d525454d9698155508625f050e0c1960ffd .
+result:commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 a prov:Activity ;
+rdfs:label "testing all metadata commit"@en ;
+prov:endedAtTime "2017-02-28T14:07:23+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T14:07:23+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-23302c78af916034a65f476663e04218efbab5ce ] ;
+prov:startedAtTime "2017-02-28T14:07:23+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-23302c78af916034a65f476663e04218efbab5ce ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-23302c78af916034a65f476663e04218efbab5ce .
+result:commit-b69f6845576dddb44d8fa61f908410c09759d560 a prov:Activity ;
+rdfs:label "enumerate values"@en ;
+prov:endedAtTime "2018-10-31T09:58:33+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2018-10-31T09:58:33+00:00"^^xsd:dateTime ;
+prov:entity result:file-houseType_params-rq_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 ] ;
+prov:startedAtTime "2018-10-31T09:58:33+00:00"^^xsd:dateTime ;
+prov:used result:file-houseType_params-rq_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub ;
+prov:wasInformedBy result:commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 .
+result:commit-b8a7ae644a06815b48832d55d74c7e4a670d761f a prov:Activity ;
+rdfs:label "added test7"@en ;
+prov:endedAtTime "2017-02-28T21:23:34+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T21:23:34+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-f0f5841c738bdef3c629bd1119833eb3854fca89 ] ;
+prov:startedAtTime "2017-02-28T21:23:34+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-f0f5841c738bdef3c629bd1119833eb3854fca89 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-f0f5841c738bdef3c629bd1119833eb3854fca89 .
+result:commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f a prov:Activity ;
+rdfs:label "limit 30"@en ;
+prov:endedAtTime "2017-03-02T09:42:40+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:42:40+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 ] ;
+prov:startedAtTime "2017-03-02T09:42:40+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 .
+result:commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 a prov:Activity ;
+rdfs:label "limit 20"@en ;
+prov:endedAtTime "2017-03-02T09:47:49+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:47:49+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b ] ;
+prov:startedAtTime "2017-03-02T09:47:49+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b .
+result:commit-c7ea1bef9571a58fc0a9815880150faf9b909fff a prov:Activity ;
+rdfs:label "Update canada_test_1.rq"@en ;
+prov:endedAtTime "2015-11-17T10:21:21+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-17T10:21:21+00:00"^^xsd:dateTime ;
+prov:entity result:file-canada_test_1-rq_commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 ] ;
+prov:startedAtTime "2015-11-17T10:21:21+00:00"^^xsd:dateTime ;
+prov:used result:file-canada_test_1-rq_commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 .
+result:commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 a prov:Activity ;
+rdfs:label "Added tag4"@en ;
+prov:endedAtTime "2017-02-28T20:23:56+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T20:23:56+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 ] ;
+prov:startedAtTime "2017-02-28T20:23:56+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 .
+result:commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 a prov:Activity ;
+rdfs:label "limit 20"@en ;
+prov:endedAtTime "2017-03-02T09:22:58+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-03-02T09:22:58+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 ] ;
+prov:startedAtTime "2017-03-02T09:22:58+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 .
+result:commit-e14727d0471b5441cb3e3b665f4d0e3424c390de a prov:Activity ;
+rdfs:label "added test4"@en ;
+prov:endedAtTime "2017-02-28T21:07:18+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T21:07:18+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c ] ;
+prov:startedAtTime "2017-02-28T21:07:18+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-55ed2c44fd2f4f1af13860f5f02433168146b45c .
+result:commit-e9a05a3e416ef90ebbb28b7504eb7fde155e5e55 a prov:Activity ;
+rdfs:label "Reverting dumps to rq extension"@en ;
+prov:endedAtTime "2016-12-08T13:34:18+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-08T13:34:18+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-f0f5841c738bdef3c629bd1119833eb3854fca89 a prov:Activity ;
+rdfs:label "pagination 200"@en ;
+prov:endedAtTime "2017-02-28T21:20:39+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-albertmeronyo ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2017-02-28T21:20:39+00:00"^^xsd:dateTime ;
+prov:entity result:file-test-rq_commit-68fbe4f0c589ba016de325812c2783581133558a ] ;
+prov:startedAtTime "2017-02-28T21:20:39+00:00"^^xsd:dateTime ;
+prov:used result:file-test-rq_commit-68fbe4f0c589ba016de325812c2783581133558a ;
+prov:wasAssociatedWith result:user-albertmeronyo ;
+prov:wasInformedBy result:commit-68fbe4f0c589ba016de325812c2783581133558a .
+result:commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a a prov:Activity ;
+rdfs:label "Testing push webhook"@en ;
+prov:endedAtTime "2015-11-16T08:51:08+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:qualifiedUsage [ a prov:Usage ;
+prov:atTime "2015-11-16T08:51:08+00:00"^^xsd:dateTime ;
+prov:entity result:file-README-md_commit-6b341df0f0e696efde3ad0c14bb73706662a8142 ] ;
+prov:startedAtTime "2015-11-16T08:51:08+00:00"^^xsd:dateTime ;
+prov:used result:file-README-md_commit-6b341df0f0e696efde3ad0c14bb73706662a8142 ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela ;
+prov:wasInformedBy result:commit-6b341df0f0e696efde3ad0c14bb73706662a8142 .
+result:file-README-md_commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 ;
+prov:atTime "2015-11-16T08:34:03+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 .
+result:file-README-md_commit-2b8e4d525454d9698155508625f050e0c1960ffd a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a ;
+prov:hadActivity result:commit-2b8e4d525454d9698155508625f050e0c1960ffd ;
+prov:hadGeneration result:file-README-md_commit-2b8e4d525454d9698155508625f050e0c1960ffd_gen ;
+prov:hadUsage result:file-README-md_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a_commit-2b8e4d525454d9698155508625f050e0c1960ffd_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-2b8e4d525454d9698155508625f050e0c1960ffd ;
+prov:atTime "2015-11-16T08:55:53+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a ;
+prov:wasGeneratedBy result:commit-2b8e4d525454d9698155508625f050e0c1960ffd .
+result:file-README-md_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 ;
+prov:hadActivity result:commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b ;
+prov:hadGeneration result:file-README-md_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b_gen ;
+prov:hadUsage result:file-README-md_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b ;
+prov:atTime "2015-11-16T08:41:42+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 ;
+prov:wasGeneratedBy result:commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b .
+result:file-README-md_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d ;
+prov:hadActivity result:commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 ;
+prov:hadGeneration result:file-README-md_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729_gen ;
+prov:hadUsage result:file-README-md_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d_commit-4b95b91f309d976315a86625ef86d6fdbdbfe729_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 ;
+prov:atTime "2015-11-16T08:40:12+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d ;
+prov:wasGeneratedBy result:commit-4b95b91f309d976315a86625ef86d6fdbdbfe729 .
+result:file-README-md_commit-6b341df0f0e696efde3ad0c14bb73706662a8142 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-a356a5dc7c66d53a32e598e0b43736f39df62734 ;
+prov:hadActivity result:commit-6b341df0f0e696efde3ad0c14bb73706662a8142 ;
+prov:hadGeneration result:file-README-md_commit-6b341df0f0e696efde3ad0c14bb73706662a8142_gen ;
+prov:hadUsage result:file-README-md_commit-a356a5dc7c66d53a32e598e0b43736f39df62734_commit-6b341df0f0e696efde3ad0c14bb73706662a8142_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-6b341df0f0e696efde3ad0c14bb73706662a8142 ;
+prov:atTime "2015-11-16T08:46:23+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-a356a5dc7c66d53a32e598e0b43736f39df62734 ;
+prov:wasGeneratedBy result:commit-6b341df0f0e696efde3ad0c14bb73706662a8142 .
+result:file-README-md_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 ;
+prov:hadActivity result:commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d ;
+prov:hadGeneration result:file-README-md_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d_gen ;
+prov:hadUsage result:file-README-md_commit-22725ea33a9e7c60e190732a55324cb5b7957ab9_commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d ;
+prov:atTime "2015-11-16T08:36:00+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-22725ea33a9e7c60e190732a55324cb5b7957ab9 ;
+prov:wasGeneratedBy result:commit-8406d4ac0f7381ede3aeeae03078260c337c5b7d .
+result:file-README-md_commit-a356a5dc7c66d53a32e598e0b43736f39df62734 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b ;
+prov:hadActivity result:commit-a356a5dc7c66d53a32e598e0b43736f39df62734 ;
+prov:hadGeneration result:file-README-md_commit-a356a5dc7c66d53a32e598e0b43736f39df62734_gen ;
+prov:hadUsage result:file-README-md_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b_commit-a356a5dc7c66d53a32e598e0b43736f39df62734_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-a356a5dc7c66d53a32e598e0b43736f39df62734 ;
+prov:atTime "2015-11-16T08:45:07+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-36aa7914d6bc770558a2e1ebe16c469bacb6de9b ;
+prov:wasGeneratedBy result:commit-a356a5dc7c66d53a32e598e0b43736f39df62734 .
+result:file-README-md_commit-adbb75e63317132de4859da32d5a96f2831411a9 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-2b8e4d525454d9698155508625f050e0c1960ffd ;
+prov:hadActivity result:commit-adbb75e63317132de4859da32d5a96f2831411a9 ;
+prov:hadGeneration result:file-README-md_commit-adbb75e63317132de4859da32d5a96f2831411a9_gen ;
+prov:hadUsage result:file-README-md_commit-2b8e4d525454d9698155508625f050e0c1960ffd_commit-adbb75e63317132de4859da32d5a96f2831411a9_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-adbb75e63317132de4859da32d5a96f2831411a9 ;
+prov:atTime "2015-11-16T09:03:48+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-2b8e4d525454d9698155508625f050e0c1960ffd ;
+prov:wasGeneratedBy result:commit-adbb75e63317132de4859da32d5a96f2831411a9 .
+result:file-README-md_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-README-md_commit-6b341df0f0e696efde3ad0c14bb73706662a8142 ;
+prov:hadActivity result:commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a ;
+prov:hadGeneration result:file-README-md_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a_gen ;
+prov:hadUsage result:file-README-md_commit-6b341df0f0e696efde3ad0c14bb73706662a8142_commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a ;
+prov:atTime "2015-11-16T08:51:08+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-README-md ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-README-md_commit-6b341df0f0e696efde3ad0c14bb73706662a8142 ;
+prov:wasGeneratedBy result:commit-fff91b6465ee12fd8e67d4b1e3ec0e09b534266a .
+result:file-canada_test_1-rq_commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 ;
+prov:atTime "2015-11-16T14:15:53+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-canada_test_1-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 .
+result:file-canada_test_1-rq_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-canada_test_1-rq_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff ;
+prov:hadActivity result:commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a ;
+prov:hadGeneration result:file-canada_test_1-rq_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a_gen ;
+prov:hadUsage result:file-canada_test_1-rq_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a ;
+prov:atTime "2015-11-17T10:35:28+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-canada_test_1-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-canada_test_1-rq_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff ;
+prov:wasGeneratedBy result:commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a .
+result:file-canada_test_1-rq_commit-806606d1dced20124ff83a630a59ce256123cf3c a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-canada_test_1-rq_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a ;
+prov:hadActivity result:commit-806606d1dced20124ff83a630a59ce256123cf3c ;
+prov:hadGeneration result:file-canada_test_1-rq_commit-806606d1dced20124ff83a630a59ce256123cf3c_gen ;
+prov:hadUsage result:file-canada_test_1-rq_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a_commit-806606d1dced20124ff83a630a59ce256123cf3c_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-806606d1dced20124ff83a630a59ce256123cf3c ;
+prov:atTime "2015-11-17T10:39:09+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-canada_test_1-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-canada_test_1-rq_commit-5bc8a9bb803e2d11ed9b39f3f5cebe9d81a2335a ;
+prov:wasGeneratedBy result:commit-806606d1dced20124ff83a630a59ce256123cf3c .
+result:file-canada_test_1-rq_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-canada_test_1-rq_commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 ;
+prov:hadActivity result:commit-c7ea1bef9571a58fc0a9815880150faf9b909fff ;
+prov:hadGeneration result:file-canada_test_1-rq_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff_gen ;
+prov:hadUsage result:file-canada_test_1-rq_commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0_commit-c7ea1bef9571a58fc0a9815880150faf9b909fff_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-c7ea1bef9571a58fc0a9815880150faf9b909fff ;
+prov:atTime "2015-11-17T10:21:21+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-canada_test_1-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-canada_test_1-rq_commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 ;
+prov:wasGeneratedBy result:commit-c7ea1bef9571a58fc0a9815880150faf9b909fff .
+result:file-dbpedia_test-rq_commit-488d057542c84b6c539cb71cff902b5a21bf8677 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-dbpedia_test-rq_commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 ;
+prov:hadActivity result:commit-488d057542c84b6c539cb71cff902b5a21bf8677 ;
+prov:hadGeneration result:file-dbpedia_test-rq_commit-488d057542c84b6c539cb71cff902b5a21bf8677_gen ;
+prov:hadUsage result:file-dbpedia_test-rq_commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4_commit-488d057542c84b6c539cb71cff902b5a21bf8677_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-488d057542c84b6c539cb71cff902b5a21bf8677 ;
+prov:atTime "2017-03-02T15:04:25+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-dbpedia_test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-dbpedia_test-rq_commit-8b4892ab8a4ab83ac554aeddcec37475975f2fb4 ;
+prov:wasGeneratedBy result:commit-488d057542c84b6c539cb71cff902b5a21bf8677 .
+result:file-endpoint-txt_commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peǹuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 ;
+prov:atTime "2016-12-02T11:05:26+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-endpoint-txt ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peǹuela ;
+prov:wasGeneratedBy result:commit-c5b52d4ab7f2882b99c34fa624064ee2c302f140 .
+result:file-ghostbusters_tracks-rq a prov:Entity ;
+rdfs:label "ghostbusters_tracks.rq"@en .
+result:file-ghostbusters_tracks-rq_commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb ;
+prov:atTime "2016-12-08T10:36:53+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-ghostbusters_tracks-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-c68f49c4a652da603948726dc1cb62fbc6a0f4fb .
+result:file-houseType_params-rq_commit-2c6368f2c34f1706474cf91746a334523d6c2267 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-3e053ea0561b051905e5a11e28dfc35a934f521d ;
+prov:hadActivity result:commit-2c6368f2c34f1706474cf91746a334523d6c2267 ;
+prov:hadGeneration result:file-houseType_params-rq_commit-2c6368f2c34f1706474cf91746a334523d6c2267_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-3e053ea0561b051905e5a11e28dfc35a934f521d_commit-2c6368f2c34f1706474cf91746a334523d6c2267_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-2c6368f2c34f1706474cf91746a334523d6c2267 ;
+prov:atTime "2017-02-28T12:55:53+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-3e053ea0561b051905e5a11e28dfc35a934f521d ;
+prov:wasGeneratedBy result:commit-2c6368f2c34f1706474cf91746a334523d6c2267 .
+result:file-houseType_params-rq_commit-3e053ea0561b051905e5a11e28dfc35a934f521d a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c ;
+prov:hadActivity result:commit-3e053ea0561b051905e5a11e28dfc35a934f521d ;
+prov:hadGeneration result:file-houseType_params-rq_commit-3e053ea0561b051905e5a11e28dfc35a934f521d_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c_commit-3e053ea0561b051905e5a11e28dfc35a934f521d_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-3e053ea0561b051905e5a11e28dfc35a934f521d ;
+prov:atTime "2017-02-28T12:52:53+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-f00cf59aaf2c28d012c4ef57c975ffdf913c3b5c ;
+prov:wasGeneratedBy result:commit-3e053ea0561b051905e5a11e28dfc35a934f521d .
+result:file-houseType_params-rq_commit-b69f6845576dddb44d8fa61f908410c09759d560 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-houseType_params-rq_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 ;
+prov:hadActivity result:commit-b69f6845576dddb44d8fa61f908410c09759d560 ;
+prov:hadGeneration result:file-houseType_params-rq_commit-b69f6845576dddb44d8fa61f908410c09759d560_gen ;
+prov:hadUsage result:file-houseType_params-rq_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00_commit-b69f6845576dddb44d8fa61f908410c09759d560_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-b69f6845576dddb44d8fa61f908410c09759d560 ;
+prov:atTime "2018-10-31T09:58:33+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-houseType_params-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-houseType_params-rq_commit-a904ae94cd1895d7d092545b9750470fdaaa6d00 ;
+prov:wasGeneratedBy result:commit-b69f6845576dddb44d8fa61f908410c09759d560 .
+result:file-statusbybirtyear_mult-rq a prov:Entity ;
+rdfs:label "statusbybirtyear_mult.rq"@en .
+result:file-statusbybirtyear_mult-rq_commit-5441688b65d4cc211b6a0a9f8659a72079410936 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-statusbybirtyear_mult-rq_commit-8a8c41bd5c26c949351cc188dbfa19871003390b ;
+prov:hadActivity result:commit-5441688b65d4cc211b6a0a9f8659a72079410936 ;
+prov:hadGeneration result:file-statusbybirtyear_mult-rq_commit-5441688b65d4cc211b6a0a9f8659a72079410936_gen ;
+prov:hadUsage result:file-statusbybirtyear_mult-rq_commit-8a8c41bd5c26c949351cc188dbfa19871003390b_commit-5441688b65d4cc211b6a0a9f8659a72079410936_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-5441688b65d4cc211b6a0a9f8659a72079410936 ;
+prov:atTime "2017-09-26T14:38:09+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-statusbybirtyear_mult-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-statusbybirtyear_mult-rq_commit-8a8c41bd5c26c949351cc188dbfa19871003390b ;
+prov:wasGeneratedBy result:commit-5441688b65d4cc211b6a0a9f8659a72079410936 .
+result:file-statusbybirtyear_mult-rq_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-statusbybirtyear_mult-rq_commit-5441688b65d4cc211b6a0a9f8659a72079410936 ;
+prov:hadActivity result:commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 ;
+prov:hadGeneration result:file-statusbybirtyear_mult-rq_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114_gen ;
+prov:hadUsage result:file-statusbybirtyear_mult-rq_commit-5441688b65d4cc211b6a0a9f8659a72079410936_commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 ;
+prov:atTime "2017-09-26T14:43:08+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-statusbybirtyear_mult-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-statusbybirtyear_mult-rq_commit-5441688b65d4cc211b6a0a9f8659a72079410936 ;
+prov:wasGeneratedBy result:commit-63270d5840f3bac11ed70ca7dc2bd2d19b3a8114 .
+result:file-statusbybirtyear_mult_shouldwork-rq_commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b ;
+prov:atTime "2017-09-26T14:29:16+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-statusbybirtyear_mult_shouldwork-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-c0d64cc14dfeee95e40ec7f84531757d463c5b2b .
+result:file-test-rq_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-e036e14ec307083859ce9d1bcf70487850d1573e ;
+prov:hadActivity result:commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 ;
+prov:hadGeneration result:file-test-rq_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9_gen ;
+prov:hadUsage result:file-test-rq_commit-e036e14ec307083859ce9d1bcf70487850d1573e_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 ;
+prov:atTime "2017-03-03T21:36:12+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-test-rq_commit-e036e14ec307083859ce9d1bcf70487850d1573e ;
+prov:wasGeneratedBy result:commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 .
+result:file-test-rq_commit-23302c78af916034a65f476663e04218efbab5ce a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 ;
+prov:hadActivity result:commit-23302c78af916034a65f476663e04218efbab5ce ;
+prov:hadGeneration result:file-test-rq_commit-23302c78af916034a65f476663e04218efbab5ce_gen ;
+prov:hadUsage result:file-test-rq_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041_commit-23302c78af916034a65f476663e04218efbab5ce_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-23302c78af916034a65f476663e04218efbab5ce ;
+prov:atTime "2017-02-28T14:03:40+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-53129b2b70a16e0b9bec2dff209695dc9b48e041 ;
+prov:wasGeneratedBy result:commit-23302c78af916034a65f476663e04218efbab5ce .
+result:file-test-rq_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 ;
+prov:hadActivity result:commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 ;
+prov:hadGeneration result:file-test-rq_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139_gen ;
+prov:hadUsage result:file-test-rq_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 ;
+prov:atTime "2017-02-28T20:17:46+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 ;
+prov:wasGeneratedBy result:commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 .
+result:file-test-rq_commit-34147d842e5b54a7f630c742ebc0848c8c31133c a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 ;
+prov:hadActivity result:commit-34147d842e5b54a7f630c742ebc0848c8c31133c ;
+prov:hadGeneration result:file-test-rq_commit-34147d842e5b54a7f630c742ebc0848c8c31133c_gen ;
+prov:hadUsage result:file-test-rq_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9_commit-34147d842e5b54a7f630c742ebc0848c8c31133c_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-34147d842e5b54a7f630c742ebc0848c8c31133c ;
+prov:atTime "2017-03-03T21:38:44+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasDerivedFrom result:file-test-rq_commit-0ec9a2498dcd7ee151dd10a8469faf3f293775b9 ;
+prov:wasGeneratedBy result:commit-34147d842e5b54a7f630c742ebc0848c8c31133c .
+result:file-test-rq_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 ;
+prov:hadActivity result:commit-55ed2c44fd2f4f1af13860f5f02433168146b45c ;
+prov:hadGeneration result:file-test-rq_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c_gen ;
+prov:hadUsage result:file-test-rq_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-55ed2c44fd2f4f1af13860f5f02433168146b45c ;
+prov:atTime "2017-02-28T21:04:49+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 ;
+prov:wasGeneratedBy result:commit-55ed2c44fd2f4f1af13860f5f02433168146b45c .
+result:file-test-rq_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-a9e7b093cfb40c4df911ee9b55d6848063890369 ;
+prov:hadActivity result:commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 ;
+prov:hadGeneration result:file-test-rq_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0_gen ;
+prov:hadUsage result:file-test-rq_commit-a9e7b093cfb40c4df911ee9b55d6848063890369_commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 ;
+prov:atTime "2017-03-02T09:55:16+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-a9e7b093cfb40c4df911ee9b55d6848063890369 ;
+prov:wasGeneratedBy result:commit-58ec1b0a1879bc587441e2c134bdce6a0b6148b0 .
+result:file-test-rq_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 ;
+prov:hadActivity result:commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 ;
+prov:hadGeneration result:file-test-rq_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9_gen ;
+prov:hadUsage result:file-test-rq_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 ;
+prov:atTime "2017-02-28T20:22:37+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-28334db68ed874b5ddf0e3b57ea16c47457f8139 ;
+prov:wasGeneratedBy result:commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 .
+result:file-test-rq_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f ;
+prov:hadActivity result:commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 ;
+prov:hadGeneration result:file-test-rq_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78_gen ;
+prov:hadUsage result:file-test-rq_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 ;
+prov:atTime "2017-03-01T10:01:15+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f ;
+prov:wasGeneratedBy result:commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 .
+result:file-test-rq_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 ;
+prov:hadActivity result:commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 ;
+prov:hadGeneration result:file-test-rq_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3_gen ;
+prov:hadUsage result:file-test-rq_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 ;
+prov:atTime "2017-03-02T09:49:58+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 ;
+prov:wasGeneratedBy result:commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 .
+result:file-test-rq_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 ;
+prov:hadActivity result:commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 ;
+prov:hadGeneration result:file-test-rq_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60_gen ;
+prov:hadUsage result:file-test-rq_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90_commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 ;
+prov:atTime "2017-02-28T16:16:31+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 ;
+prov:wasGeneratedBy result:commit-a4711ec2590f46aad62c5bc97460f4c8ac5f2c60 .
+result:file-test-rq_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f ;
+prov:hadActivity result:commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b ;
+prov:hadGeneration result:file-test-rq_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b_gen ;
+prov:hadUsage result:file-test-rq_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b ;
+prov:atTime "2017-03-02T09:45:30+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f ;
+prov:wasGeneratedBy result:commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b .
+result:file-test-rq_commit-a9e7b093cfb40c4df911ee9b55d6848063890369 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 ;
+prov:hadActivity result:commit-a9e7b093cfb40c4df911ee9b55d6848063890369 ;
+prov:hadGeneration result:file-test-rq_commit-a9e7b093cfb40c4df911ee9b55d6848063890369_gen ;
+prov:hadUsage result:file-test-rq_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3_commit-a9e7b093cfb40c4df911ee9b55d6848063890369_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-a9e7b093cfb40c4df911ee9b55d6848063890369 ;
+prov:atTime "2017-03-02T09:55:04+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-834d11f45e1ccb47034a22057ecaeaa781b4e6e3 ;
+prov:wasGeneratedBy result:commit-a9e7b093cfb40c4df911ee9b55d6848063890369 .
+result:file-test-rq_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 ;
+prov:hadActivity result:commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 ;
+prov:hadGeneration result:file-test-rq_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119_gen ;
+prov:hadUsage result:file-test-rq_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 ;
+prov:atTime "2017-03-02T09:17:46+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-714b5b99a66c05ca2a123f81472fce1d24db8b78 ;
+prov:wasGeneratedBy result:commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 .
+result:file-test-rq_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-23302c78af916034a65f476663e04218efbab5ce ;
+prov:hadActivity result:commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 ;
+prov:hadGeneration result:file-test-rq_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90_gen ;
+prov:hadUsage result:file-test-rq_commit-23302c78af916034a65f476663e04218efbab5ce_commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 ;
+prov:atTime "2017-02-28T14:07:23+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-23302c78af916034a65f476663e04218efbab5ce ;
+prov:wasGeneratedBy result:commit-b2ad5d94473dd16b56527b72a3b02eb3696b0f90 .
+result:file-test-rq_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-f0f5841c738bdef3c629bd1119833eb3854fca89 ;
+prov:hadActivity result:commit-b8a7ae644a06815b48832d55d74c7e4a670d761f ;
+prov:hadGeneration result:file-test-rq_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f_gen ;
+prov:hadUsage result:file-test-rq_commit-f0f5841c738bdef3c629bd1119833eb3854fca89_commit-b8a7ae644a06815b48832d55d74c7e4a670d761f_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-b8a7ae644a06815b48832d55d74c7e4a670d761f ;
+prov:atTime "2017-02-28T21:23:34+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-f0f5841c738bdef3c629bd1119833eb3854fca89 ;
+prov:wasGeneratedBy result:commit-b8a7ae644a06815b48832d55d74c7e4a670d761f .
+result:file-test-rq_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 ;
+prov:hadActivity result:commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f ;
+prov:hadGeneration result:file-test-rq_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f_gen ;
+prov:hadUsage result:file-test-rq_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1_commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f ;
+prov:atTime "2017-03-02T09:42:40+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 ;
+prov:wasGeneratedBy result:commit-baea2f7f0700456ebc592b0aece6c7531b4f3f6f .
+result:file-test-rq_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b ;
+prov:hadActivity result:commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 ;
+prov:hadGeneration result:file-test-rq_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6_gen ;
+prov:hadUsage result:file-test-rq_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b_commit-c4e73fac334053016f77d9bcdcc6567633e2bea6_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 ;
+prov:atTime "2017-03-02T09:47:49+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-a71dc4cf40ba3c9eb1fb8e0539bbbf2d959b2d3b ;
+prov:wasGeneratedBy result:commit-c4e73fac334053016f77d9bcdcc6567633e2bea6 .
+result:file-test-rq_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 ;
+prov:hadActivity result:commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 ;
+prov:hadGeneration result:file-test-rq_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67_gen ;
+prov:hadUsage result:file-test-rq_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9_commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 ;
+prov:atTime "2017-02-28T20:23:56+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-67461871ed5f8434cfef68b8e6faf8a7f16e85e9 ;
+prov:wasGeneratedBy result:commit-d894ea5712b91dff864e68ad7a6f5683a0f8ab67 .
+result:file-test-rq_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 ;
+prov:hadActivity result:commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 ;
+prov:hadGeneration result:file-test-rq_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1_gen ;
+prov:hadUsage result:file-test-rq_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119_commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 ;
+prov:atTime "2017-03-02T09:22:58+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-aa0741c5e1fff78f34700da3f7a2be5ceea11119 ;
+prov:wasGeneratedBy result:commit-dcf4f66b19f8a2f79133a90c73a2f6528f75dcf1 .
+result:file-test-rq_commit-e036e14ec307083859ce9d1bcf70487850d1573e a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-Albert-Meroño-Peñuela ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-e036e14ec307083859ce9d1bcf70487850d1573e ;
+prov:atTime "2017-03-03T21:28:50+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-Albert-Meroño-Peñuela ;
+prov:wasGeneratedBy result:commit-e036e14ec307083859ce9d1bcf70487850d1573e .
+result:file-test-rq_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c ;
+prov:hadActivity result:commit-e14727d0471b5441cb3e3b665f4d0e3424c390de ;
+prov:hadGeneration result:file-test-rq_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de_gen ;
+prov:hadUsage result:file-test-rq_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c_commit-e14727d0471b5441cb3e3b665f4d0e3424c390de_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-e14727d0471b5441cb3e3b665f4d0e3424c390de ;
+prov:atTime "2017-02-28T21:07:18+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-55ed2c44fd2f4f1af13860f5f02433168146b45c ;
+prov:wasGeneratedBy result:commit-e14727d0471b5441cb3e3b665f4d0e3424c390de .
+result:file-test-rq_commit-f0f5841c738bdef3c629bd1119833eb3854fca89 a prov:Entity ;
+prov:qualifiedAttribution [ a prov:Attribution,
+"authorship"@en ;
+prov:agent result:user-albertmeronyo ] ;
+prov:qualifiedDerivation [ a prov:Derivation ;
+prov:entity result:file-test-rq_commit-68fbe4f0c589ba016de325812c2783581133558a ;
+prov:hadActivity result:commit-f0f5841c738bdef3c629bd1119833eb3854fca89 ;
+prov:hadGeneration result:file-test-rq_commit-f0f5841c738bdef3c629bd1119833eb3854fca89_gen ;
+prov:hadUsage result:file-test-rq_commit-68fbe4f0c589ba016de325812c2783581133558a_commit-f0f5841c738bdef3c629bd1119833eb3854fca89_use ] ;
+prov:qualifiedGeneration [ a prov:Generation ;
+prov:activity result:commit-f0f5841c738bdef3c629bd1119833eb3854fca89 ;
+prov:atTime "2017-02-28T21:20:39+00:00"^^xsd:dateTime ] ;
+prov:specializationOf result:file-test-rq ;
+prov:wasAttributedTo result:user-albertmeronyo ;
+prov:wasDerivedFrom result:file-test-rq_commit-68fbe4f0c589ba016de325812c2783581133558a ;
+prov:wasGeneratedBy result:commit-f0f5841c738bdef3c629bd1119833eb3854fca89 .
+result:user-Rinke-Hoekstra a prov:Agent ;
+rdfs:label "Rinke Hoekstra"@en .
+result:commit-046ceed716d4f9306bdd2cb124f5c3d9f77979d0 a prov:Activity ;
+rdfs:label "Example queries"@en ;
+prov:endedAtTime "2015-11-16T14:15:53+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2015-11-16T14:15:53+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-9896f39641965715fd5e47e9ddb73d011dfa2048 a prov:Activity ;
+rdfs:label "deleted testing queries"@en ;
+prov:endedAtTime "2017-04-25T08:59:10+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2017-04-25T08:59:10+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela .
+result:commit-9e178796e5ef3a9fc8def1b0ace15923dc82680a a prov:Activity ;
+rdfs:label "Rename dwarsliggers.sparql to dwarsliggers.rq"@en ;
+prov:endedAtTime "2016-12-12T10:55:50+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peñuela ;
+prov:hadRole "author"@en ],
+[ a prov:Association ;
+prov:agent result:user-GitHub ;
+prov:hadRole "committer, committer"@en ] ;
+prov:startedAtTime "2016-12-12T10:55:50+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peñuela,
+result:user-GitHub .
+result:file-dbpedia_test-rq a prov:Entity ;
+rdfs:label "dbpedia_test.rq"@en .
+result:file-canada_test_1-rq a prov:Entity ;
+rdfs:label "canada_test_1.rq"@en .
+result:file-README-md a prov:Entity ;
+rdfs:label "README.md"@en .
+result:file-houseType_params-rq a prov:Entity ;
+rdfs:label "houseType_params.rq"@en .
+result:commit-2789eeb091f66a6bdab0530df1446da35821e820 a prov:Activity ;
+rdfs:label "Moving old queries"@en ;
+prov:endedAtTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ;
+prov:qualifiedAssociation [ a prov:Association ;
+prov:agent result:user-Albert-Meroño-Peǹuela ;
+prov:hadRole "author, committer"@en ] ;
+prov:startedAtTime "2016-12-02T10:50:36+00:00"^^xsd:dateTime ;
+prov:wasAssociatedWith result:user-Albert-Meroño-Peǹuela .
+result:file-test-rq a prov:Entity ;
+rdfs:label "test.rq"@en .
+result:user-Albert-Meroño-Peǹuela a prov:Agent ;
+rdfs:label "Albert Meroño-Peǹuela"@en .
+result:user-GitHub a prov:Agent ;
+rdfs:label "GitHub"@en .
+result:user-albertmeronyo a prov:Agent ;
+rdfs:label "albertmeronyo"@en .
+result:user-Albert-Meroño-Peñuela a prov:Agent ;
+rdfs:label "Albert Meroño-Peñuela"@en .

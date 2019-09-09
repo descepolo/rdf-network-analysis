@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/> .
+@prefix dataFromVendor001400: <http://a> .
+@prefix dataFromProducer001411: <http://b> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dataFromVendor001400:Offer2413
+ rdf:type bsbm:Offer ;
+ bsbm:product dataFromProducer001411:Product00001435443 ;
+ bsbm:vendor dataFromVendor001400:Vendor001400 ;
+ bsbm:price "31.99"^^bsbm:USD ;
+ bsbm:validFrom "2008-02-12"^^xsd:date ;
+ bsbm:validTo "2008-02-20"^^xsd:date ;
+ bsbm:deliveryDays "7"^^xsd:Integer ;
+ bsbm:offerWebpage <http://vendor001400.com/offers/Offer2413> ;
+ dc:publisher dataFromVendor001400:Vendor001400 ;
+ dc:date "2008-02-13"^^xsd:date .
+dataFromVendor001400:Offer2414
+ rdf:type bsbm:Offer ;
+ bsbm:product dataFromProducer001411:Product00001435444 ;
+ bsbm:vendor dataFromVendor001400:Vendor001400 ;
+ bsbm:price "23.99"^^bsbm:USD ;
+ bsbm:validFrom "2008-02-10"^^xsd:date ;
+ bsbm:validTo "2008-02-22"^^xsd:date ;
+ bsbm:deliveryDays "7"^^xsd:Integer ;
+ bsbm:offerWebpage <http://vendor001400.com/offers/Offer2414> ;
+ dc:publisher dataFromVendor001400:Vendor001400 ;
+ dc:date "2008-02-13"^^xsd:date .
